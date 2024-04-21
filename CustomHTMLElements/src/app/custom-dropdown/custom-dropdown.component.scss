@@ -1,0 +1,33 @@
+/* custom-dropdown.component.css */
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-header {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  

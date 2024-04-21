@@ -1,0 +1,7 @@
+<!-- custom-dropdown.component.html -->
+<div class="dropdown-container" (click)="toggleDropdown()">
+    <div class="dropdown-header">{{ selectedOption || 'Select an option' }}</div>
+    <div class="dropdown-items" *ngIf="isOpen">
+      <div class="dropdown-item" *ngFor="let option of options" (click)="selectOption(option)">{{ option }}</div>
+    </div>
+</div>
